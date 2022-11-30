@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #1D1D43;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+.logo-txt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.headline-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.headline-txt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.headline-txt-earth{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 72px;
+
+
+    color: #D08E4C;
+}
+
+.github-container a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+
+.github-container a:hover{
+    text-decoration: underline;
+
+}
+
+.content{
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-inner{
+}
+
+.columns{
+}
+
+.card{
+    height: 600px;
+}
+
+.card-1{
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    background: url("assets/city.svg") center no-repeat;
+    
+    
+}
+
+.card-2{
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    background: url("assets/desert.svg") center no-repeat;
+}
+
+.card-3{
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    background: url("assets/ocean.svg") center no-repeat;
+}
+
+.card-4{
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    background: url("assets/mountains.svg") center no-repeat;
+}
+
+.cover{
+    transition: .2s ease-out;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.cover span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+
+.card:hover .cover{
+    
+    opacity:1;
+    
+}
+
+
+.moon{
+    position: absolute;
+    max-height: 300px;
+    right: 15%;
+    top: 7%;
+    z-index: -1;
+}
+
+.earth{
+    position: absolute;
+    max-height: 700px;
+    bottom: 0;
+    z-index: -1;
+}
+
+.footer{
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer span{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    
+}
